@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "disableannounceadvancement",
+    "name": "DisableAnnounceAdvancement",
+    "description": "Disable Announce Advancement",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "vk.com/darkunitysct",
+    "authorList": ["DarkUnity"]
+  }
+]

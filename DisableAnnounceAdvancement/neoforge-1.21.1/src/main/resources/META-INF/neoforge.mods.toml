@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="DarkUnitySCT"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="Disable Announce Advancement"
+authors="DarkUnity_SCT"
+description='Disables advancement announcements in chat (announceAdvancements gamerule = false) on every login.'
+
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.190,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
